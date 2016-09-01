@@ -2,6 +2,13 @@
 A cron utility that messages a particular telegram channel on any new Topcoder challenges.
 Old challenges (for tracking) are stored in a firebase instance.
 
+##Pre-requisites
+1. A [Telegram bot](https://telegram.org/blog/bot-revolution) api key
+2. [Firebase](https://firebase.google.com) Instance Access Details
+3. [Firebase](https://firebase.google.com) Instance [Email/Password User Credentials](https://www.firebase.com/docs/web/guide/login/password.html)
+4. [NodeJS](https://nodejs.org/en/)
+5. A [Telegram Channel](https://telegram.org/blog/channels) with [the API bot as Admin](http://stackoverflow.com/questions/33126743/how-do-i-join-my-bot-to-the-channel)
+
 ## Installation
 1. Clone this repository
 2. Make a `.env` and fill it up using `.env.sample` as template
