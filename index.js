@@ -1,7 +1,19 @@
 (function(){
 "use strict";
 
-require('dotenv').config();
+function fileExists(filePath)
+{
+    try
+    {
+        return fs.statSync(filePath).isFile();
+    }
+    catch (err)
+    {
+        return false;
+    }
+}
+
+if(fileExists('.env')) require('dotenv').config();
 
 const TelegramBot = require('node-telegram-bot-api');
 const firebase = require('firebase');
