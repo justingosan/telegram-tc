@@ -1,0 +1,19 @@
+{
+  "name": "telegram_topcoder_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jz10@jz10.info",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "dotenv": "^2.0.0",
+    "firebase": "^3.3.0",
+    "lodash": "^4.15.0",
+    "node-telegram-bot-api": "^0.23.3",
+    "request-promise": "^4.1.1"
+  }
+}
